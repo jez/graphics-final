@@ -1,0 +1,34 @@
+# Site settings
+title: 15-462 Graphics Final Project
+email: jezimmer@andrew
+description: > # this means to ignore newlines until "baseurl:"
+  Project page for my 15-462 final project for the Fall 2015 semester.
+baseurl: "/graphics-final" # the subpath of your site, e.g. /blog/
+url: "https://jez.io" # the base hostname & protocol for your site
+
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile.lock
+  - Gemfile
+
+permalink: /:title/
+
+# Build settings
+markdown: redcarpet
+
+redcarpet:
+  extensions:
+    - no_intra_emphasis
+    - tables
+    - fenced_code_blocks
+    - autolink
+    - disable_indented_code_blocks
+    - strikethrough
+    - footnotes
+    - with_toc_data
+    - smart
+
+# -- custom metadata --
+github_usernames:
+  - jez
