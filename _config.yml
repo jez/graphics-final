@@ -3,6 +3,8 @@ title: 15-462 Graphics Final Project
 email: jezimmer@andrew
 description: > # this means to ignore newlines until "baseurl:"
   Project page for my 15-462 final project for the Fall 2015 semester.
+
+  Jake Zimmerman
 baseurl: "/graphics-final" # the subpath of your site, e.g. /blog/
 url: "https://jez.io" # the base hostname & protocol for your site
 
